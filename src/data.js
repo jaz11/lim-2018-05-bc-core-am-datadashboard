@@ -29,43 +29,43 @@ window.computeUsersStats = (users, progress, courses) => {
    };
   
 
- try {
-   usersWithStats.stats = {
-       percent: progress[usersWithStats.id].intro.percent,
-       exercises: {
-           total: exercisesTotal(progress[usersWithStats.id], courses),
-           completed: exercisesCompleted(progress[usersWithStats.id], courses),
+//  try {
+//    usersWithStats.stats = {
+//        percent: progress[usersWithStats.id].intro.percent,
+//        exercises: {
+//            total: exercisesTotal(progress[usersWithStats.id], courses),
+//            completed: exercisesCompleted(progress[usersWithStats.id], courses),
           
-           completed:
-           percentd:
-           }
-           reads:{
-           total:
-           completed:
-           percent:
+//            completed:
+//            percentd:
+//            }
+//            reads:{
+//            total:
+//            completed:
+//            percent:
                  
-           }
-           quizzes:{
+//            }
+//            quizzes:{
             
-          total:
+//           total:
 
 
 
 
           
-          completed:
-          percent:
-          scoresum:
-          scoreAvg:
-           }  
+//           completed:
+//           percent:
+//           scoresum:
+//           scoreAvg:
+//            }  
               
-       }
-     }
-  catch{
+//        }
+//      }
+//   catch{
 
-   }
-   return{}   
-} )
+//    }
+//    return{}   
+// } )
 
 userWithStats();     
 
@@ -85,8 +85,8 @@ window.processCohortData = () => {
 
 
 //Buttons
-const button2018Function = 
-document.getElementById('prom-2018-button').addEventListener('click', () => {
-document.getElementById('block-2').style.display = 'none';
-document.getElementById('block-3').style.display = 'block';
-});
+// const button2018Function = 
+// document.getElementById('prom-2018-button').addEventListener('click', () => {
+// document.getElementById('block-2').style.display = 'none';
+// document.getElementById('block-3').style.display = 'block';
+// });
