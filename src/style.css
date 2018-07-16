@@ -1,82 +1,60 @@
 body{
-    background: #EDA43B;
-    position: absolute; 
+  margin: 10%;
+  background-color: gray;
+}
+.select-bar{
+  padding: 3ex;
+  float: left;
+  box-sizing: border-box;
+  background-color: #ffc107;
+  border-radius: 5%;
 }
 
-/* #block-1{} */
-
-div {
-    float: left;
-    margin-top: 20%;
-    margin-left: 11%;
+.logo{
+  text-align: center;
+  background-color: #fff;
+  padding: 3%;
 }
 
-.lim {
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    background: #ffd700;
-    margin: 25px;
-    overflow: hidden;
-    padding: 44px;
-    border: 2px solid #955C0B;
-    cursor: pointer;
+#campus{
+background-color:black;
+color: white;
+font-size: 20px;
+padding: 1ex;
+border-radius:5px; 
+cursor: pointer;
 }
 
-#block-1 lim :hover {
-    background: #FF009E;
+#proms{
+  background-color:black;
+  color: white;
+  font-size: 20px;
+  padding: 1ex;
+  border-radius:5px; 
+  cursor: pointer;
 }
 
-.cdmx {
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    background: #ffd700;
-    margin: 25px;
-    overflow: hidden;
-    padding: 37px;
-    border: 2px solid #955C0B;
-    cursor: pointer;
+.table{
+  overflow-y: hidden;
 }
 
-.guad {
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    background: #ffd700;
-    margin: 25px;
-    overflow: hidden;
-    padding: 33px;
-    border: 2px solid #955C0B;
-    cursor: pointer;
+#order-by {
+  background-color: aqua;
+  padding: 1ex;
+  border-radius: 7%;
+  cursor: pointer;
 }
 
-
-.spau {
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    background: #ffd700;
-    margin: 25px;
-    overflow: hidden;
-    padding: 32px;
-    border: 2px solid #955C0B;
-    cursor: pointer;
+#order-direction {
+  background-color: aqua;
+  padding: 1ex;
+  border-radius: 7%;
+  cursor: pointer;
 }
 
-.chle {
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    background: #ffd700;
-    margin: 25px;
-    overflow: hidden;
-    padding: 37px;
-    border: 2px solid #955C0B;
-    cursor: pointer;
+#search-box {
+  background-color: aqua;
+  padding: 1ex;
+  border-radius: 7%;
+  cursor: pointer;
 }
