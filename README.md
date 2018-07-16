@@ -1,8 +1,9 @@
 # Data Dashboard Proyect (Proyecto Data Dashboard)
 For Training Managers to see the user's progress from LMS by a Data Dashboard.
-Para que los Training managers puedan ver el progreso de las estudiantes en el (LMS) Learning Management System crearemos un datadashboard.
--Logic implemented on ES5 and ES6.
+- Logic implemented on ES5 and ES6.
 Soon all logic implemented on ES6.
+
+Para que los Training managers puedan ver el progreso de las estudiantes en el (LMS) Learning Management System crearemos un datadashboard.
 - La lógica está implementada en ES5 y ES6.
 Próximamente adaptado en su totalidad a ES6.
 
