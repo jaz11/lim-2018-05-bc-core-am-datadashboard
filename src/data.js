@@ -252,9 +252,11 @@ window.sortUsers = (users, orderBy, orderDirection) => {
 }
 
 window.filterUsers = (users, search) => {
+  // console.log(users);
   const filUsers = users.filter(user => {
     return user.name.toUpperCase().indexOf(search.toUpperCase()) > -1;
   });
+  // console.log(filUsers);
   return filUsers;
 }
 

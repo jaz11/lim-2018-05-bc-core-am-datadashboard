@@ -93,14 +93,21 @@ describe('data', () => {
   });
 
   describe('filterUsers(users, filterBy)', () => {
+    const users = fixtures[0];
+    const processed = filterUsers(users, 'rojas');
 
-    it('debería retornar nuevo arreglo solo con usuarios con nombres que contengan string (case insensitive)');
+    it('debería retornar nuevo arreglo solo con usuarios con nombres que contengan string (case insensitive)', () => {
+      assert.equal(processed.length, 6);
+    });
 
   });
 
   describe('processCohortData({ cohortData, orderBy, orderDirection, filterBy })', () => {
 
-    it('debería retornar arreglo de usuarios con propiedad stats y aplicar sort y filter');
+    it('debería retornar el objeto options');
+    () => {
+      assert.equal(totalStudents);
+    };
 
   });
 
