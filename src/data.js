@@ -10,7 +10,6 @@
     let completedQuizzes = 0;
     let scoreSum = 0;
     let scoreAvg = 0;
-
     // calculations of completeness percent
     courses.forEach(coursesName => { 
       if (progress[user.id].hasOwnProperty(coursesName)) {  
@@ -40,7 +39,6 @@
                 completedReads += partsName.completed;
               }
             }
-
             // Calculations of quizzes (completeness, score and average)
             if (partsName.hasOwnProperty('type')) {
               if (partsName.type === 'quiz') {
@@ -86,7 +84,6 @@
   });
   return newArrUsers
 };
-
 // This global function show the data in the order you choose
 window.sortUsers = (users, orderBy, orderDirection) => {
   const orderList = users;
@@ -146,7 +143,7 @@ window.sortUsers = (users, orderBy, orderDirection) => {
   }
   // The ending for order by PERCENT
 
-    // Function to order by EXERCISES
+  // Function to order by EXERCISES
   if (orderBy === "exercises" && orderDirection === 'ASC') {
     return orderList.sort(function (a, b) {
       const excercisesA = a.stats.exercises.completed, excercisesB = b.stats.exercises.completed
@@ -159,7 +156,6 @@ window.sortUsers = (users, orderBy, orderDirection) => {
       return 0; 
     });
   }
-
   if (orderBy === "exercises" && orderDirection === 'DESC') {
     return orderList.sort(function (a, b) {
       const excercisesB = b.stats.exercises.completed, excercisesA = a.stats.exercises.completed
@@ -174,7 +170,7 @@ window.sortUsers = (users, orderBy, orderDirection) => {
   }
   // The ending for order by EXERCISES
 
-    // Function to order by QUIZZES
+  // Function to order by QUIZZES
   if (orderBy === "quizz" && orderDirection === 'ASC') {
     return orderList.sort(function (a, b) {
       const quizzA = a.stats.quizzes.completed, quizzB = b.stats.quizzes.completed
@@ -240,7 +236,6 @@ window.sortUsers = (users, orderBy, orderDirection) => {
       return 0; 
     });
   }
-
   if (orderBy === "reads" && orderDirection === 'DESC') {
     return orderList.sort(function (a, b) {
       const readsB = b.stats.reads.completed, readsA = a.stats.reads.completed
@@ -257,14 +252,10 @@ window.sortUsers = (users, orderBy, orderDirection) => {
 }
 
 window.filterUsers = (users, search) => {
-
   const filUsers = users.filter(user => {
     return user.name.toUpperCase().indexOf(search.toUpperCase()) > -1;
-
   });
-
   return filUsers;
-
 }
 
 window.processCohortData = (options) => {
